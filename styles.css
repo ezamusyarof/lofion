@@ -1,0 +1,234 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.kampus {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url('img-kampus.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    z-index: -2;
+}
+
+.gradien {
+    position: absolute;
+    background: linear-gradient(rgb(0,0,0,100%), rgb(0,0,0,60%), rgb(0,0,0,50%), rgb(0,0,0,70%), rgb(0,0,0,100%), rgb(0,0,0,100%));
+    padding-bottom: 62%;
+    width: 100%;
+    z-index: -1;
+}
+
+.kosong {
+    width: 100%;
+    height: 50px;
+}
+
+.header {
+    text-align: center;
+    width: 99%;
+    font-size: 20px;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+}
+
+.header img {
+    width: 80px;
+    margin: 0px 0px -24px 0px;
+}
+
+.header a {
+    margin-left: 3%;
+    text-decoration: none;
+    color: rgb(255,255,255,50%);
+}
+
+.header a:hover {
+    color: rgb(255,255,255,100%);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.welcome {
+    margin: 50px 5% 50px 15%;
+    width: 70%;
+    height: 70%;
+    text-align: justify;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+}
+
+.welcome p, button {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0px 7.5%;
+}
+
+.welcome button {
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 50px 0px;
+    margin-left: 7.5%;
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: #008190;
+    transition: .5s;
+}
+
+.welcome button:hover {
+    cursor: pointer;
+    color: #008190;
+    border-color: #008190;
+    background-color: rgba(255, 255, 255, 0.848);
+}
+
+.welcome .judul {
+    font-size: 56px;
+    text-shadow: 1px 1px rgb(255,255,255,0.1);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.4);
+    color: #008190;
+}
+
+h2 {
+    text-align: center;
+    margin: 30px 0px 15px -8px;
+}
+
+.garispendek {
+    width: 75px;
+}
+
+.box-kampus {
+    margin: 60px 15% 50px 15%;
+    background-color: rgb(255, 255, 255, 10%);
+    border-radius: 15px;
+    width: 70%;
+    text-align: center;
+}
+
+body .box-kampus .isi-box {
+    display: flex;
+    width: 100%;
+    height: 20%;
+    border-radius: 20px;
+}
+
+body .box-kampus .isi-box div {
+    margin: 3%;
+    width: 300px;
+}
+
+.isi-box div img {
+    cursor: pointer;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.berita {
+    width: 80%;
+    display: flex;
+    margin: 15px 10%;
+}
+
+.box-berita {
+    width: 100%;
+    margin: 0px 5%;
+}
+
+.box-berita img {
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px 10px;
+    margin-top: 75px;
+}
+
+.box-berita p {
+    cursor: pointer;
+    text-align: justify;
+    font-size: 24px;
+}
+
+.box-berita .tgl {
+    cursor: auto;
+    color: #ffffffc9;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.berita .mark-berita {
+    opacity: 90%;
+    position: absolute;
+    margin-left: -7%;
+    padding-top: 1.7%;
+    width: 4%;
+    border-radius: 0px 0px;
+}
+
+.panjang {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 73%;
+}
+
+.garis {
+    margin: 25px 0px;
+    width: 1px;
+    opacity: 50%;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.tentang-kami {
+    display: flex;
+    margin: 0 15%;
+    margin-top: 50px;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.tentang-kami img {
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+.tentang-kami p {
+    margin-left: 50px;
+}
+
+button a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+table {
+    margin-left: 10%;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+td, th {
+    text-decoration: none;
+    border: 1px solid #dddddd;
+    text-align: left;
+    /* padding: 8px; */
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #353535;
+}
+
